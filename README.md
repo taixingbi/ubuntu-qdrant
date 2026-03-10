@@ -42,5 +42,11 @@ sudo docker compose down -v
 
 Data is persisted in the Docker volume `qdrant_storage` and survives container restarts.
 
-## Test from another machine (e.g. Mac): use host IP (e.g. 192.168.86.173) or localhost on the same machine.
+## Other machine (e.g. Mac on same LAN):
 
+| Service        | URL |
+|----------------|-----|
+| Web dashboard  | http://192.168.86.173:6333/dashboard |
+| REST API       | http://192.168.86.173:6333 |
+| Health check   | http://192.168.86.173:6333/healthz |
+| gRPC           | 192.168.86.173:6334 |
