@@ -46,7 +46,7 @@ Data is persisted in the Docker volume `qdrant_storage` and survives container r
 
 | Service        | URL |
 |----------------|-----|
-| Web dashboard  | http://192.168.86.173:6333/dashboard |
-| REST API       | http://192.168.86.173:6333 |
-| Health check   | http://192.168.86.173:6333/healthz |
-| gRPC           | 192.168.86.173:6334 |
+| Web dashboard  | http://192.168.86.179:6333/dashboard |
+| REST API       | http://192.168.86.179:6333 |
+| Health check   | http://192.168.86.179:6333/healthz |
+| gRPC           | 192.168.86.179:6334 |
